@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+    section{width:100%}
+    a{
+        text-decoration: none; color: rgb(238, 103, 193); font-size: 20px;
+    }
+    a:hover { color:rgb(217, 45, 233)}
+    article {
+        padding: 20px;
+        display: inline-block;
+           }
+           li{
+               padding: 20px;
+           }
+    </style>
+    <header>
+        <h1>Nucbers Cinema</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Precios</a>
+        </nav>
+        <section>
+            <h2>Buscá tu pelicula</h2>
+            <article>
+                <h3>Por año:</h3>
+                <label> <input type="radio" name="year">2018</label>
+                <label> <input type="radio" name="year">2019</label>
+                <label> <input type="radio" name="year">2020</label>
+                <label> <input type="radio" name="year">2021</label>
+            </article>
+            <article>
+                <h3>Por nombre:</h3>
+                <input type="text" placeholder="Búsqueda...">
+            </article>
+            <article>
+                <h3>Por género:</h3>
+                <select name="" id="migenero">
+                    <option value="">....</option>
+                    <option value="1">Acción</option>
+                    <option value="2">Comedia</option>
+                    <option value="3">Terror</option>
+                    <option value="4">Drama</option>
+                </select>
+            </article>
+        </section>
+        <section>
+            <h2>Agregadas recientemente:</h2>
+            <article>
+                <h3>Infinity War</h3>
+                <a href="">
+                    <img src="./Infinitywar.jpg">
+                </a>
+                <ul>
+                    <li>Año: 2018</li>
+                    <li>Genero: Acción</li>
+                    <li>IMBD: 10.0 estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Deadpool</h3>
+                <a href="">
+                    <img src="./deadpool.jpg">
+                </a>
+                <ul>
+                    <li>Año: 2018</li>
+                    <li>Genero: Acción</li>
+                    <li>IMBD: 25.0 estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Infinity War</h3>
+                <a href="">
+                    <img src="./antman.jpg">
+                </a>
+                <ul>
+                    <li>Año: 2018</li>
+                    <li>Genero: Acción</li>
+                    <li>IMBD: 5.0 estrellas</li>
+                </ul>
+            </article>
+        </section>
+    </header>
+</body>
+</html>
